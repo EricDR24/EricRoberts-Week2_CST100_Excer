@@ -11,7 +11,7 @@ public class AccountClass {
 	private int id;
 	private double balance;
 	private static double annualInterestRate;
-	public Date dateCreated;
+	private Date dateCreated;
 	
 	//constructors for class
 	AccountClass() {

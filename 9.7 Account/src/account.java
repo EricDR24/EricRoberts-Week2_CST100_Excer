@@ -11,7 +11,7 @@ public class account {
 		//create account
 		AccountClass account = new AccountClass(1122, 20000);
 		
-		System.out.println(account.dateCreated);
+		
 		//deposit
 		account.deposite(3000);
 		
