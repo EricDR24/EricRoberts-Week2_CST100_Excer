@@ -24,7 +24,7 @@ public class account {
 		System.out.println("Account ID: " + account.getId());
 		System.out.println("Date: " + account.getDateCreated());
 		System.out.printf("Monthly interest: $%.2f", account.getMonthlyInterest());
-		System.out.printf("Balance $%.2f", account.getBalance());
+		System.out.printf("\nBalance $%.2f", account.getBalance());
 
 	}
 

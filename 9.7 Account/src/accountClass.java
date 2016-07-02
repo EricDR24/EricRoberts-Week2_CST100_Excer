@@ -50,13 +50,17 @@ public class accountClass {
 		return annualInterestRate;
 	}
 	
+	public double getMonthlyInterestRate() {
+		return annualInterestRate / 12;
+	}
+	
 	public String getDateCreated() {
 		return dateCreated.toString();
 	}
 	
 	//regular methods
 	public double getMonthlyInterest() {
-		return balance * (getMonthlyInterest() / 100);
+		return balance * (getMonthlyInterestRate() / 100);
 	}
 	
 	public void deposite(double amount) {
