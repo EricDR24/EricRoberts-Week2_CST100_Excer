@@ -9,8 +9,9 @@ public class account {
 
 	public static void main(String[] args) {
 		//create account
-		accountClass account = new accountClass(1122, 20000);
+		AccountClass account = new AccountClass(1122, 20000);
 		
+		System.out.println(account.dateCreated);
 		//deposit
 		account.deposite(3000);
 		

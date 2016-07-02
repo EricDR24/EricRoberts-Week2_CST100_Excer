@@ -6,21 +6,19 @@
 **/
 import java.util.Date;
 
-public class accountClass {
+public class AccountClass {
 	//private fields
 	private int id;
 	private double balance;
 	private static double annualInterestRate;
-	private Date dateCreated;
+	public Date dateCreated;
 	
 	//constructors for class
-	accountClass() {
-		id = 0;
-		balance = 0;
-		dateCreated = new Date();
+	AccountClass() {
+		this(0,0);
 	}
 	
-	accountClass(int newId, double newBalance) {
+	AccountClass(int newId, double newBalance) {
 		id = newId;
 		balance = newBalance;
 		dateCreated = new Date();
